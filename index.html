@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+
+<title>Latest</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<nav>
+
+<div id="menu"></div>
+<div id="list-page">
+
+<div class="linking">
+
+<a href="javascript::void(0)">หน้าหลัก</a><br>
+<a href="javascript::void(0)">อนุรักษ์ดิน</a><br>
+<a href="javascript::void(0)">อนุรักษ์สัตว์ป่า</a><br>
+<a href="javascript::void(0)">อนุรักษ์น้ำ</a><br>
+<a href="javascript::void(0)">อนุรักษ์แร่ธาตุ</a><br>
+<a href="javascript::void(0)">อนุรักษ์ป่าไม้</a><br>
+<a href="javascript::void(0)">ผู้จัดทำ</a>
+
+</div>
+
+
+
+</div>
+<div id="close-bar"></div>
+<div class="link-page">
+
+<a href="javascript::void(0)">หน้าหลัก</a>
+<a href="javascript::void(0)">อนุรักษ์ดิน</a>
+<a href="javascript::void(0)">อนุรักษ์สัตว์ป่า</a>
+<a href="javascript::void(0)">อนุรักษ์น้ำ</a>
+<a href="javascript::void(0)">อนุรักษ์แร่ธาตุ</a>
+<a href="javascript::void(0)">อนุรักษ์ป่าไม้</a>
+<a href="javascript::void(0)">ผู้จัดทำ</a>
+</div>
+
+<script>
+
+let list = document.getElementById("list-page");
+let menu = document.getElementById("menu");
+let close = document.getElementById("close-bar");
+
+
+menu.addEventListener('click', function() {
+
+
+list.style.top = "100%";
+list.style.display = "block";
+list.style.backgroundColor = "gray";
+menu.style.backgroundImage = "url('image/x.png')"
+menu.classList.toggle('active');
+close.style.display = "block"
+
+})
+
+
+
+close.addEventListener('click', function() {
+
+
+list.style.display = "none";
+menu.style.backgroundImage = "url('image/menu-bar.gif')"
+close.classList.toggle('active');
+close.style.display = "none"
+
+
+})
+
+
+
+</script>
+
+</div>
+
+</nav>
+
+<div class="contain">
+
+<header>
+
+<img src="image/sea.png">
+
+</header>
+
+<section>
+
+<div class="left-sec">
+
+<img src="image/ocean.jpg">
+
+</div>
+<div class="right-sec">
+
+<h1>คลื่น</h1>
+<p>
+
+
+คลื่น หมายถึง ลักษณะของการถูกรบกวน ที่มีการแผ่กระจาย เคลื่อนที่ออกไป ในลักษณะของการกวัดแกว่ง หรือกระเพื่อม และมักจะมีการส่งถ่ายพลังงานไปด้วย คลื่นเชิงกลซึ่งเกิดขึ้นในตัวกลาง (ซึ่งเมื่อมีการปรับเปลี่ยนรูป จะมีความแรงยืดหยุ่นในการดีดตัวกลับ) จะเดินทางและส่งผ่านพลังงานจากจุดหนึ่งไปยังอีกจุดหนึ่งในตัวกลาง โดยไม่ทำให้เกิดการเคลื่อนตำแหน่งอย่างถาวรของอนุภาคตัวกลาง คือไม่มีการส่งถ่ายอนุภาคนั่นเอง แต่จะมีการแกว่งกวัด (oscillation) ไปกลับของอนุภาค อย่างไรก็ตามสำหรับ การแผ่รังสีคลื่นแม่เหล็กไฟฟ้า และ การแผ่รังสีแรงดึงดูด นั้นสามารถเดินทางในสุญญากาศได้ โดยไม่ต้องมีตัวกลาง
+
+ลักษณะของคลื่นนั้น จะระบุจาก สันคลื่น หรือ ยอดคลื่น (ส่วนที่มีค่าสูงขึ้น) และ ท้องคลื่น (ส่วนที่มีค่าต่ำลง) ในลักษณะ ตั้งฉากกับทิศทางเดินคลื่น เรียก "คลื่นตามขวาง" (transverse wave) หรือ ขนานกับทิศทางเดินคลื่น เรียก "คลื่นตามยาว" (longitudinal wave)
+
+
+
+</p>
+</div>
+
+</section>
+
+<footer>
+
+<div class="left-footer"></div>
+<div class="right-footer"></div>
+
+</footer>
+
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
